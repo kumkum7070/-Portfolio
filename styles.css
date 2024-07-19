@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* General container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Styles for about section */
+#about {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+/* Styles for skills section */
+#skills {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    font-size: 1.2rem;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 20px;
+}
+
+/* Styles for projects section */
+#projects {
+    padding: 4rem 0;
+}
+
+.project {
+    margin-bottom: 3rem;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    font-size: 1rem;
+}
+
+/* Styles for contact section */
+#contact {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles for footer */
+footer {
+    background-color: #333;
+    color: #ffffff48;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
